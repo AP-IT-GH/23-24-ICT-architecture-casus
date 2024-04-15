@@ -1,0 +1,19 @@
+{
+  "name": "img-resize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -r dotenv/config test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.554.0",
+    "sharp": "^0.33.3"
+  }
+}
